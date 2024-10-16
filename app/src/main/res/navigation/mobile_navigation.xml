@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/presentacionInicio">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.guadeejercicios.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.guadeejercicios.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.guadeejercicios.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/biceps_fragment"
+        android:name="com.example.guadeejercicios.biceps_fragment"
+        android:label="Biceps"
+        tools:layout="@layout/fragment_biceps_fragment" />
+
+    <fragment
+        android:id="@+id/presentacionInicio"
+        android:name="com.example.guadeejercicios.PresentacionInicio"
+        android:label="Bienvenidos a la guia de ejercicios"
+        tools:layout="@layout/fragment_presentacion_inicio" />
+    <fragment
+        android:id="@+id/nav_triceps"
+        android:name="com.example.guadeejercicios.nav_triceps"
+        android:label="Triceps"
+        tools:layout="@layout/fragment_nav_triceps" />
+    <fragment
+        android:id="@+id/nav_Abdomen"
+        android:name="com.example.guadeejercicios.nav_abdomen"
+        android:label="Abdomen"
+        tools:layout="@layout/fragment_nav_abdomen" />
+    <fragment
+        android:id="@+id/nav_brazos"
+        android:name="com.example.guadeejercicios.nav_brazos"
+        android:label="Brazos"
+        tools:layout="@layout/fragment_nav_brazos" />
+    <fragment
+        android:id="@+id/nav_cardio"
+        android:name="com.example.guadeejercicios.nav_cardio"
+        android:label="Cardio"
+        tools:layout="@layout/fragment_nav_cardio" />
+    <fragment
+        android:id="@+id/detalledeEjercicio"
+        android:name="com.example.guadeejercicios.DetalledeEjercicio"
+        android:label="Detalle del Ejercicio"
+        tools:layout="@layout/fragment_detallede_ejercicio" />
+
+</navigation>

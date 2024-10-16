@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <!-- Categoría: Piernas -->
+        <string-array name="leg_exercises">
+            <item>Squats</item>
+            <item>Lunges</item>
+            <item>Leg Press</item>
+            <item>Step-Ups</item>
+            <item>Deadlifts</item>
+        </string-array>
+
+        <string-array name="leg_exercises_descriptions">
+            <item>Fortalece los músculos de las piernas...</item>
+            <item>Tonifica los muslos y glúteos...</item>
+            <item>Ejercicio con peso en la máquina de piernas...</item>
+            <item>Subir y bajar de un banco...</item>
+            <item>Levantamiento de peso desde el suelo...</item>
+        </string-array>
+
+        <string-array name="leg_exercises_instructions">
+            <item>1. Mantén los pies separados a la anchura de los hombros...</item>
+            <item>1. Da un paso adelante con una pierna y baja la cadera...</item>
+            <item>1. Siéntate en la máquina de press de piernas y empuja hacia arriba...</item>
+            <item>1. Coloca un pie en el banco y empuja hacia arriba...</item>
+            <item>1. Coloca el peso en el suelo, inclínate hacia adelante y levántalo...</item>
+        </string-array>
+
+        <!-- Categoría: Brazos -->
+        <string-array name="arm_exercises">
+            <item>Bicep Curls</item>
+            <item>Tricep Dips</item>
+            <item>Hammer Curls</item>
+            <item>Push-Ups</item>
+            <item>Bench Press</item>
+        </string-array>
+
+        <string-array name="arm_exercises_descriptions">
+            <item>Fortalece los bíceps con levantamientos...</item>
+            <item>Ejercicio para triceps con tu propio peso...</item>
+            <item>Variación del curl con agarre neutro...</item>
+            <item>Ejercicio básico para el tren superior...</item>
+            <item>Levanta peso en banco para fortalecer el pecho y brazos...</item>
+        </string-array>
+
+        <string-array name="arm_exercises_instructions">
+            <item>1. Levanta el peso con las palmas hacia arriba...</item>
+            <item>1. Apóyate en un banco y baja los brazos...</item>
+            <item>1. Sostén las mancuernas con las palmas hacia el cuerpo...</item>
+            <item>1. Colócate en posición de plancha y baja el cuerpo...</item>
+            <item>1. Acuéstate en el banco y empuja el peso hacia arriba...</item>
+        </string-array>
+
+        <!-- Categoría: Cardio -->
+        <string-array name="cardio_exercises">
+            <item>Running</item>
+            <item>Jumping Jacks</item>
+            <item>Burpees</item>
+            <item>Mountain Climbers</item>
+            <item>Skipping Rope</item>
+        </string-array>
+
+        <string-array name="cardio_exercises_descriptions">
+            <item>Ejercicio básico para mejorar resistencia cardiovascular...</item>
+            <item>Salta abriendo las piernas y elevando los brazos...</item>
+            <item>Mejora tu resistencia y fuerza con burpees...</item>
+            <item>Ejercicio dinámico para trabajar el core...</item>
+            <item>Salta la cuerda para quemar calorías rápidamente...</item>
+        </string-array>
+
+        <string-array name="cardio_exercises_instructions">
+            <item>1. Corre a un ritmo moderado durante al menos 30 minutos...</item>
+            <item>1. Salta abriendo las piernas y elevando los brazos simultáneamente...</item>
+            <item>1. Comienza de pie, luego baja al suelo, realiza una flexión y salta...</item>
+            <item>1. Colócate en posición de plancha y lleva las rodillas al pecho rápidamente...</item>
+            <item>1. Salta la cuerda a un ritmo constante durante al menos 15 minutos...</item>
+        </string-array>
+
+
+</resources>

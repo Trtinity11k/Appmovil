@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <!-- Aquí puedes añadir tus variables de enlace de datos si es necesario -->
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="#F49090">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <!-- Imagen y botón 1: Dominadas -->
+            <ImageView
+                android:id="@+id/imageDominadas"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dominadas"
+                android:contentDescription="Dominadas"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnDominadas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dominadas"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+            <!-- Imagen y botón 2: Remo con Barra -->
+            <ImageView
+                android:id="@+id/imageRemoBarra"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/remoconbarra"
+                android:contentDescription="Remo con Barra"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnRemoBarra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remo con Barra"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+            <!-- Imagen y botón 3: Peso Muerto Rumano -->
+            <ImageView
+                android:id="@+id/imagePesoMuertoRumano"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pesomuerto"
+                android:contentDescription="Peso Muerto Rumano"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnPesoMuertoRumano"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peso Muerto Rumano"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+            <!-- Imagen y botón 4: Jalón al Pecho -->
+            <ImageView
+                android:id="@+id/imageJalonPecho"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/jalonpecho"
+                android:contentDescription="Jalón al Pecho"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnJalonPecho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jalón al Pecho"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+            <!-- Imagen y botón 5: Remo en Polea -->
+            <ImageView
+                android:id="@+id/imageRemoPolea"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/remoconbarra"
+                android:contentDescription="Remo en Polea"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnRemoPolea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remo en Polea"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

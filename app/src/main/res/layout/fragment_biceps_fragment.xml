@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <!-- Aquí puedes añadir tus variables de enlace de datos si es necesario -->
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="#F49090">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <!-- Imagen y botón 1: Curl de Bíceps con Mancuernas -->
+            <ImageView
+                android:id="@+id/imageCurlMancuernas"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/curlbicepmancuernas"
+                android:contentDescription="Curl de Bíceps con Mancuernas"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnCurlMancuernas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Curl de Bíceps con Mancuernas"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+            <!-- Imagen y botón 2: Curl Concentrado -->
+            <ImageView
+                android:id="@+id/imageCurlConcentrado"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bicep2"
+                android:contentDescription="Curl Concentrado"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnCurlConcentrado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Curl Concentrado"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+            <!-- Imagen y botón 3: Curl Martillo -->
+            <ImageView
+                android:id="@+id/imageCurlMartillo"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/curlmartillo"
+                android:contentDescription="Curl Martillo"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnCurlMartillo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Curl Martillo"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+            <!-- Imagen y botón 4: Curl en Banco Scott -->
+            <ImageView
+                android:id="@+id/imageCurlBancoScott"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/curlbanco"
+                android:contentDescription="Curl en Banco Scott"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnCurlBancoScott"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Curl en Banco Scott"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+            <!-- Imagen y botón 5: Curl con Barra Z -->
+            <ImageView
+                android:id="@+id/imageCurlBarraZ"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/barraz"
+                android:contentDescription="Curl con Barra Z"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnCurlBarraZ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Curl con Barra Z"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Guía de Ejercicios</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Cuerpo humano</string>
+    <string name="nav_header_subtitle">Partes del cuerpo humano</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Hombros</string>
+    <string name="menu_gallery">Piernas</string>
+    <string name="menu_slideshow">Espalda</string>
+    <string name="menu_Biceps">Biceps</string>
+    <string name="menu_Triceps">Triceps</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

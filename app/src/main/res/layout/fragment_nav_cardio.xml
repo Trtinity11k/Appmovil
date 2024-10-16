@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <!-- Aquí puedes añadir tus variables de enlace de datos si es necesario -->
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="#F49090">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <!-- Imagen y botón 1: Correr -->
+            <ImageView
+                android:id="@+id/imageCorrer"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/correr"
+                android:contentDescription="Correr"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnCorrer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correr"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+            <!-- Imagen y botón 2: Saltar la Cuerda -->
+            <ImageView
+                android:id="@+id/imageSaltarCuerda"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/saltarcuerda"
+                android:contentDescription="Saltar la Cuerda"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnSaltarCuerda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saltar la Cuerda"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+            <!-- Imagen y botón 3: Bicicleta Estática -->
+            <ImageView
+                android:id="@+id/imageBicicletaEstatica"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bicicletaest"
+                android:contentDescription="Bicicleta Estática"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnBicicletaEstatica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bicicleta Estática"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+            <!-- Imagen y botón 4: Elíptica -->
+            <ImageView
+                android:id="@+id/imageEliptica"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/eliptica"
+                android:contentDescription="Elíptica"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnEliptica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Elíptica"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+            <!-- Imagen y botón 5: HIIT -->
+            <ImageView
+                android:id="@+id/imageHIIT"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hiit"
+                android:contentDescription="HIIT"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnHIIT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HIIT"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

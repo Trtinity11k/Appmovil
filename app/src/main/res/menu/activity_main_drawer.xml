@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_accessibility_new_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_airline_seat_legroom_extra_24"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/biceps_fragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Biceps" />
+        <item
+            android:id="@+id/nav_triceps"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Triceps" />
+        <item
+            android:id="@+id/nav_Abdomen"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Abdomen" />
+        <item
+            android:id="@+id/nav_brazos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Brazos" />
+        <item
+            android:id="@+id/nav_cardio"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Cardio" />
+    </group>
+
+    <item
+        android:id="@+id/presentacionInicio"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="Volver al Menu" />
+</menu>

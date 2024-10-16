@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <!-- Aquí puedes añadir tus variables de enlace de datos si es necesario -->
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="#F49090">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <!-- Imagen y botón 1: Sentadillas -->
+            <ImageView
+                android:id="@+id/imageSentadillas"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fuerza"
+                android:contentDescription="Sentadillas"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnSentadillas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sentadillas"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+            <!-- Imagen y botón 2: Prensa de Pierna -->
+            <ImageView
+                android:id="@+id/imagePrensaPierna"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/prensa"
+                android:contentDescription="Prensa de Pierna"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnPrensaPierna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prensa de Pierna"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+            <!-- Imagen y botón 3: Peso Muerto -->
+            <ImageView
+                android:id="@+id/imagePesoMuerto"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pesomuerto"
+                android:contentDescription="Peso Muerto"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnPesoMuerto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peso Muerto"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+            <!-- Imagen y botón 4: Zancadas -->
+            <ImageView
+                android:id="@+id/imageZancadas"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/zancada"
+                android:contentDescription="Zancadas"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnZancadas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zancadas"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+            <!-- Imagen y botón 5: Elevación de Talones -->
+            <ImageView
+                android:id="@+id/imageElevacionTalones"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/elevaciondetalones"
+                android:contentDescription="Elevación de Talones"
+                android:elevation="8dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnElevacionTalones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Elevación de Talones"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6200EE"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>
